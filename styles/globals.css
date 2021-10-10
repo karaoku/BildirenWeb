@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .main-style{
+        @apply bg-black text-gray-100 antialiased
+    }
+    .main-container{
+        @apply max-w-6xl mx-auto
+    }
+    .background-blur{
+        backdrop-filter: blur(10px)
+    }
+    .title-hover{
+        color: #FED402
+    }
+}
