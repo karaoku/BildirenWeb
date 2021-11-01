@@ -1,7 +1,10 @@
+import Post from '../components/post'
+
 function HomePage() {
     return (
-        <div className="">
-            <p>Deneme</p>
+        <div className="flex flex-col space-y-12">
+            <Post />
+            <Post />
         </div>
     )
 }
