@@ -13,6 +13,6 @@
         backdrop-filter: blur(10px)
     }
     .title-hover{
-        color: #FED402
+        @apply text-green-600
     }
 }

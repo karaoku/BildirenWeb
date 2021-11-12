@@ -8,10 +8,10 @@ function MyApp({ Component, pageProps }) {
       <div className="main-style">
         <Header />
         <main className="main-container flex">
-          <div className="w-1/4 py-10 pr-5 border-r border-gray-900">
+          <div className="w-1/4 py-10 pr-10 border-r border-gray-900">
             <Sidebar />
           </div>
-          <div className="w-3/4 py-10 px-5">
+          <div className="w-3/4 py-10 pl-10">
             <Component {...pageProps} />
           </div>
         </main>

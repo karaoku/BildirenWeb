@@ -9,7 +9,7 @@ function Sidebar() {
         <div className="flex flex-col space-y-8">
           <div className="flex flex-col space-y-2">
             <Link href="/secki">
-              <a>
+              <a className="hover:opacity-75 duration-500">
                 <Image
                   src={
                     'https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80'
@@ -30,10 +30,10 @@ function Sidebar() {
               <span className="text-xs text-gray-400">21 saat önce</span>
               <div className="flex flex-row space-x-2">
                 <Link href="/secki">
-                  <a className="text-xs text-gray-400 hover:title-hover">İş</a>
+                  <a className="text-xs text-gray-400 hover:title-hover border-b border-green-600">İş</a>
                 </Link>
                 <Link href="/secki">
-                  <a className="text-xs text-gray-400 hover:title-hover">
+                  <a className="text-xs text-gray-400 hover:title-hover border-b border-green-600">
                     Teknoloji
                   </a>
                 </Link>
@@ -42,7 +42,7 @@ function Sidebar() {
           </div>
           <div className="flex flex-col space-y-2">
             <Link href="/secki">
-              <a>
+              <a className="hover:opacity-75 duration-500">
                 <Image
                   src={
                     'https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80'
@@ -63,10 +63,10 @@ function Sidebar() {
               <span className="text-xs text-gray-400">21 saat önce</span>
               <div className="flex flex-row space-x-2">
                 <Link href="/secki">
-                  <a className="text-xs text-gray-400 hover:title-hover">İş</a>
+                  <a className="text-xs text-gray-400 hover:title-hover border-b border-green-600">İş</a>
                 </Link>
                 <Link href="/secki">
-                  <a className="text-xs text-gray-400 hover:title-hover">
+                  <a className="text-xs text-gray-400 hover:title-hover border-b border-green-600">
                     Teknoloji
                   </a>
                 </Link>
@@ -89,10 +89,10 @@ function Sidebar() {
               <span className="text-xs text-gray-400">21 saat önce</span>
               <div className="flex flex-row space-x-2">
                 <Link href="/secki">
-                  <a className="text-xs text-gray-400 hover:title-hover">İş</a>
+                  <a className="text-xs text-gray-400 hover:title-hover border-b border-green-600">İş</a>
                 </Link>
                 <Link href="/secki">
-                  <a className="text-xs text-gray-400 hover:title-hover">
+                  <a className="text-xs text-gray-400 hover:title-hover border-b border-green-600">
                     Teknoloji
                   </a>
                 </Link>
@@ -109,10 +109,10 @@ function Sidebar() {
               <span className="text-xs text-gray-400">21 saat önce</span>
               <div className="flex flex-row space-x-2">
                 <Link href="/secki">
-                  <a className="text-xs text-gray-400 hover:title-hover">İş</a>
+                  <a className="text-xs text-gray-400 hover:title-hover border-b border-green-600">İş</a>
                 </Link>
                 <Link href="/secki">
-                  <a className="text-xs text-gray-400 hover:title-hover">
+                  <a className="text-xs text-gray-400 hover:title-hover border-b border-green-600">
                     Teknoloji
                   </a>
                 </Link>
